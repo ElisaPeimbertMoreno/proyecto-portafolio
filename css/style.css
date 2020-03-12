@@ -1,0 +1,55 @@
+/* Reset */
+html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}blockquote,body,figure,h1,h2,h3,h4,h5,h6,hr,li,ol,pre,ul{margin:0;padding:0}ul{list-style:none}button,input,select,textarea{color:inherit;font:inherit;letter-spacing:inherit}button,input,textarea{border:1px solid gray}button{border-radius:0;padding:.75em 1em;background-color:transparent}button *{pointer-events:none}embed,iframe,img,object,video{display:block;max-width:100%}table{table-layout:fixed;width:100%}[hidden]{display:none}noscript{display:block;margin-bottom:1em;margin-top:1em}
+
+/****************************************
+*    Variables
+*****************************************/
+:root {
+  /* Colors */
+  --primary: #464C4D;
+  /* Typography */
+  --font-family: 'Raleway', sans-serif;
+}
+
+/****************************************
+*    Base - Elements
+*****************************************/
+body {
+  display: flex;
+  font-family: var(--font-family);
+  background: white;
+  color: var(--primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+/****************************************
+*    Componentes
+*****************************************/
+
+/* Branding */
+.branding {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.branding a {
+  border: 1px solid hotpink;
+}
+
+/* Main */
+.fotos img {
+  max-width: 300px;
+}
+
+/* Footer */
+.footer {
+  border: 1px solid var(--primary);
+}
+
+.footer p {
+  font-size: 14px;
+}
