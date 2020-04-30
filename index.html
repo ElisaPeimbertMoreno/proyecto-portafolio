@@ -11,27 +11,54 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>MENONA</title>
   </head>
-  <body>
-    <header class="branding">
-      <a href="/">
-        MENONA
-      </a>
-      <nav>
-        <ul>
-          <li>Sobre mi</li>
-          <li>Proyectos</li>
-          <li>Contacto</li>
-        </ul>
-      </nav>
+  <body class="site-container">
+    <header role="banner">
+      <h1 class="site-name">Menona</h1>
     </header>
 
-    <main class="fotos">
-      <img src="/assets/images/home.png" alt="Foto" />
-    </main>
+    <svg class="hamburguesa" viewBox="0 0 100 80" width="40" height="40">
+      <rect width="100" height="20"></rect>
+      <rect y="30" width="100" height="20"></rect>
+      <rect y="60" width="100" height="20"></rect>
+    </svg>
 
+    <img
+      class="imagen"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2322424/elisa.png"
+      alt="foto"
+    />
+
+    <nav id="nav-toggle" role="navigation" class="menu" hidden>
+      <ul>
+        <li class="subnav">
+          <a id="subnav-toggle" href="/proyectos.html">
+            Proyectos
+          </a>
+          <ul hidden>
+            <li>ARCHIVO</li>
+            <li>CHUCHO REYES</li>
+            <li>ESTACIONES</li>
+            <li>GEA</li>
+            <li>LE GAI CINE MAD</li>
+            <li>MAJKA</li>
+            <li>MALBA</li>
+            <li>SIMBIOSIS</li>
+          </ul>
+        </li>
+        <li>
+          <a href="/contacto.html">
+            Contacto
+          </a>
+        </li>
+        <li>
+          <a href="/contacto.html">
+            YO
+          </a>
+        </li>
+      </ul>
+    </nav>
     <footer class="footer">
-      <p>Elisa Peimbert Moreno</p>
-      <p>estudio comunicación visual</p>
+      <a href="http://instagram.com/@elisapeimbert">@ELISAPEIMBERT</a>
     </footer>
   </body>
 </html>
