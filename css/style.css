@@ -169,6 +169,20 @@ header[role="banner"] {
   }
 }
 
+/* Contacto */
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 80vh;
+}
+
+/*
+.contacto-container .contactoinfo {
+  background: #0366ee;
+  height: 50%;
+}
+*/
 /****************************************
 *    Proyecto
 *****************************************/
