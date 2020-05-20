@@ -101,24 +101,26 @@ header[role="banner"] {
   }
 }
 
-/* SVG Placeholder */
-.hamburguesa {
+/* Button */
+.menu {
   grid-row: 2 / 3;
   margin: 0 0 1em 0;
 }
 
+/* 
 @media screen and (min-width: 40em) {
-  /* Desktop */
+ 
   .hamburguesa {
     display: none;
   }
 }
+*/
 
 /* Menu */
 @media screen and (min-width: 40em) {
   /* Desktop */
   .menu {
-    display: block;
+    /*  display: block; */
     grid-column: 1;
     grid-row: 2;
     align-self: start;

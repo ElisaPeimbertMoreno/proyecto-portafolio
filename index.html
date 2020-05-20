@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2322424/minireset.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>MENONA</title>
   </head>
@@ -16,30 +20,32 @@
       <h1 class="site-name">Menona</h1>
     </header>
 
-    <svg class="hamburguesa" viewBox="0 0 100 80" width="40" height="40">
-      <rect width="100" height="20"></rect>
-      <rect y="30" width="100" height="20"></rect>
-      <rect y="60" width="100" height="20"></rect>
-    </svg>
-
     <img class="imagen" src="./assets/images/algo.jpeg" alt="foto" />
 
-    <nav id="nav-toggle" role="navigation" class="menu" hidden>
-      <ul>
+    <button id="nav-toggle" class="menu">
+      <svg class="hamburguesa" viewBox="0 0 100 80" width="40" height="40">
+        <rect width="100" height="20"></rect>
+        <rect y="30" width="100" height="20"></rect>
+        <rect y="60" width="100" height="20"></rect>
+      </svg>
+      <ul class="menu-items" hidden>
         <li class="subnav">
-          <a id="subnav-toggle" href="/proyectos.html">
+          <a href="/proyectos.html">
             Proyectos
           </a>
-          <ul hidden>
-            <li>ARCHIVO</li>
-            <li>CHUCHO REYES</li>
-            <li>ESTACIONES</li>
-            <li>GEA</li>
-            <li>LE GAI CINE MAD</li>
-            <li>MAJKA</li>
-            <li>MALBA</li>
-            <li>SIMBIOSIS</li>
-          </ul>
+          <button id="sub-nav-toggle" class="submenu">
+            Proyectos
+            <ul class="sub-menu-items" hidden>
+              <li>ARCHIVO</li>
+              <li>CHUCHO REYES</li>
+              <li>ESTACIONES</li>
+              <li>GEA</li>
+              <li>LE GAI CINE MAD</li>
+              <li>MAJKA</li>
+              <li>MALBA</li>
+              <li>SIMBIOSIS</li>
+            </ul>
+          </button>
         </li>
         <li>
           <a href="/contacto.html">
@@ -52,9 +58,10 @@
           </a>
         </li>
       </ul>
-    </nav>
+    </button>
     <footer class="footer">
       <a href="http://instagram.com/@elisapeimbert">@ELISAPEIMBERT</a>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
