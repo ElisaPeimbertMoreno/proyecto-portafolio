@@ -1,3 +1,4 @@
+/*
 const menu = document.getElementById("nav-toggle");
 const subMenu = document.getElementById("sub-nav-toggle");
 const menuItems = menu.querySelector(".menu-items");
@@ -12,4 +13,14 @@ function menuToggler() {
 
 function subMenuToggler() {
   subMenuItems.toggleAttribute("hidden");
+}
+*/
+const nav = document.getElementById("nav");
+//const menuProyectos = nav.querySelector(.menuProyectos);
+//const menuItems = nav.querySelector(.menuItems);
+
+//menuProyectos.addEventListener('click', 'showMenu')
+
+function showMenu() {
+  console.log("funciona");
 }
