@@ -225,7 +225,7 @@ button {
 *   Inicio
 *****************************************/
 .home {
-  background: url(../assets/images/home.jpg);
+  background: url(../assets/images/covid.jpg);
   background-repeat: no-repeat;
   min-height: 70vh;
 }
@@ -273,5 +273,5 @@ main > * {
 }
 
 .descripcion {
-  line-height: 1.2;
+  line-height: 1.4;
 }
