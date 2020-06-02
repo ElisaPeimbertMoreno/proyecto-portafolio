@@ -271,3 +271,7 @@ main > * {
 .proyecto {
   margin: 0.25em;
 }
+
+.descripcion {
+  line-height: 1.2;
+}
